@@ -1,0 +1,19 @@
+# EU AI Act dataset
+
+> Obligations, application dates, Annex III use cases, prohibited practices and fines of the EU AI Act (Regulation (EU) 2024/1689) as amended by the Digital Omnibus (Regulation (EU) 2026/1744). Structured data in JSON, YAML and iCalendar, English and German. Licence CC BY 4.0. Published by SimpleAct UG (haftungsbeschränkt), Recklinghausen, Germany.
+
+Key dates: prohibitions and AI literacy since 2 Feb 2025; general-purpose AI models since 2 Aug 2025; transparency under Art. 50 since 2 Aug 2026; high-risk AI under Annex III from 2 Dec 2027; high-risk AI in Annex I products from 2 Aug 2028.
+
+## Data
+
+- [Obligations](https://raw.githubusercontent.com/SimpleAct-Compliance/eu-ai-act-dataset/main/data/obligations.json): 33 obligations with article, role and application date
+- [Application dates](https://raw.githubusercontent.com/SimpleAct-Compliance/eu-ai-act-dataset/main/data/deadlines.json): 10 dates from 2024 to 2030
+- [Annex III](https://raw.githubusercontent.com/SimpleAct-Compliance/eu-ai-act-dataset/main/data/annex-iii.json): 8 areas, 25 high-risk use cases
+- [Prohibited practices](https://raw.githubusercontent.com/SimpleAct-Compliance/eu-ai-act-dataset/main/data/prohibited-practices.json): Article 5
+- [Fines](https://raw.githubusercontent.com/SimpleAct-Compliance/eu-ai-act-dataset/main/data/fines.json): Article 99
+
+## Guides
+
+- [EU AI Act overview](https://simpleact.eu/ai-act)
+- [AI Act deadlines](https://simpleact.eu/ai-act-deadlines)
+- [KI-Verordnung im Überblick (Deutsch)](https://simpleact.de/ai-act)

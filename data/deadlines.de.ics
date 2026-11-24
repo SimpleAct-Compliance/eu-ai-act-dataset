@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SimpleAct//eu-ai-act-dataset//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:EU AI Act: Fristen
+BEGIN:VEVENT
+UID:eu-ai-act-entry-2024-08-01@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20240801
+DTEND;VALUE=DATE:20240802
+SUMMARY:EU AI Act: KI-Verordnung tritt in Kraft
+DESCRIPTION:Die Verordnung (EU) 2024/1689 ist in Kraft. Unmittelbare Pflich
+ ten entstehen noch nicht – der Tag startet die gestaffelten Übergangsfr
+ isten.\n\nRechtsgrundlage: Art. 113
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-bans-2025-02-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20250202
+DTEND;VALUE=DATE:20250203
+SUMMARY:EU AI Act: Verbotene Praktiken und KI-Kompetenz
+DESCRIPTION:Die Verbote nach Art. 5 gelten\, etwa Social Scoring\, manipula
+ tive Techniken\, Emotionserkennung am Arbeitsplatz und ungezieltes Auslese
+ n von Gesichtsbildern. Seit demselben Tag müssen Anbieter und Betreiber M
+ aßnahmen zur KI-Kompetenz ihres Personals ergreifen (Art. 4).\n\nRechtsgr
+ undlage: Art. 4\, Art. 5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-gpai-2025-08-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20250802
+DTEND;VALUE=DATE:20250803
+SUMMARY:EU AI Act: KI-Modelle mit allgemeinem Verwendungszweck
+DESCRIPTION:Pflichten für Anbieter von GPAI-Modellen gelten: technische Do
+ kumentation\, Informationen für nachgelagerte Anbieter\, Urheberrechts-Po
+ licy und eine Zusammenfassung der Trainingsdaten\; bei systemischem Risiko
+  zusätzliche Bewertung und Risikominderung. Zugleich gelten Governance-St
+ ruktur und Sanktionsrahmen.\n\nRechtsgrundlage: Kap. V\, Kap. VII\, Art. 9
+ 9
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-omnibus-2026-07-27@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:EU AI Act: Digital Omnibus tritt in Kraft
+DESCRIPTION:Die Verordnung (EU) 2026/1744 verschiebt die Hochrisiko-Fristen
+  und fasst Art. 4 neu: Unternehmen müssen Maßnahmen zur Förderung der K
+ I-Kompetenz ergreifen\, aber kein bestimmtes Kompetenzniveau je Person gar
+ antieren. Für KMU und kleine Mid-Caps gibt es Erleichterungen bei Dokumen
+ tation und Qualitätsmanagement.\n\nRechtsgrundlage: VO (EU) 2026/1744
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-general-2026-08-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:EU AI Act: Allgemeine Geltung und Transparenzpflichten
+DESCRIPTION:Die Verordnung gilt im Übrigen allgemein. Die Transparenzpflic
+ hten nach Art. 50 greifen: KI\, die mit Menschen interagiert\, muss sich z
+ u erkennen geben\, Deepfakes und Emotionserkennung müssen offengelegt wer
+ den\, und neu in Verkehr gebrachte generative Systeme müssen ihre Ausgabe
+ n maschinenlesbar markieren. Die Kommission kann ab jetzt Geldbußen gegen
+  GPAI-Anbieter verhängen.\n\nRechtsgrundlage: Art. 50\, Art. 101\, Art. 1
+ 13
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-dec2026-2026-12-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:EU AI Act: Ende der Übergangsfrist für KI-Markierung\, neue Verbo
+ te
+DESCRIPTION:Generative KI-Systeme\, die schon vor dem 2. August 2026 auf de
+ m Markt waren\, müssen ihre Ausgaben jetzt ebenfalls maschinenlesbar mark
+ ieren (Art. 50 Abs. 2). Außerdem gelten zwei neue Verbote: KI\, die ohne 
+ Einwilligung intime Darstellungen identifizierbarer Personen erzeugt oder 
+ manipuliert\, und KI zur Erzeugung von Darstellungen sexuellen Kindesmissb
+ rauchs.\n\nRechtsgrundlage: Art. 50 Abs. 2\, Art. 5 (neu)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-aug2027-2027-08-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+SUMMARY:EU AI Act: GPAI-Bestandsmodelle und KI-Reallabore
+DESCRIPTION:GPAI-Modelle\, die vor dem 2. August 2025 in Verkehr gebracht w
+ urden\, müssen die Pflichten nach Kapitel V erfüllen. Jeder Mitgliedstaa
+ t muss mindestens ein nationales KI-Reallabor betreiben – der Omnibus ha
+ t diese Frist um ein Jahr verschoben.\n\nRechtsgrundlage: Art. 111 Abs. 3\
+ , Art. 57
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-annex3-2027-12-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20271202
+DTEND;VALUE=DATE:20271203
+SUMMARY:EU AI Act: Hochrisiko-KI nach Anhang III
+DESCRIPTION:Die Anforderungen an Hochrisiko-KI (Kapitel III\, Abschnitte 1 
+ bis 3) gelten für eigenständige Systeme nach Anhang III – etwa in Pers
+ onalwesen\, Bildung\, Kreditwürdigkeitsprüfung\, kritischer Infrastruktu
+ r und Zugang zu wesentlichen Leistungen. Anbieter brauchen Risikomanagemen
+ t\, technische Dokumentation\, Konformitätsbewertung und Registrierung\; 
+ Betreiber müssen u. a. menschliche Aufsicht sicherstellen und Protokolle 
+ aufbewahren (Art. 26).\n\nRechtsgrundlage: Art. 6 Abs. 2\, Anhang III\, Ar
+ t. 8–27
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-annex1-2028-08-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20280802
+DTEND;VALUE=DATE:20280803
+SUMMARY:EU AI Act: Hochrisiko-KI in regulierten Produkten (Anhang I)
+DESCRIPTION:KI-Systeme\, die Sicherheitsbauteil eines Produkts nach den Har
+ monisierungsvorschriften in Anhang I sind oder selbst ein solches Produkt 
+ sind – etwa Maschinen\, Medizinprodukte\, Spielzeug oder Aufzüge – m
+ üssen die Hochrisiko-Anforderungen erfüllen. Vor dem Omnibus war hierfü
+ r August 2027 vorgesehen.\n\nRechtsgrundlage: Art. 6 Abs. 1\, Anhang I
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-public-2030-08-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20300802
+DTEND;VALUE=DATE:20300803
+SUMMARY:EU AI Act: Bestands-Hochrisiko-KI bei Behörden
+DESCRIPTION:Anbieter und Betreiber von Hochrisiko-KI-Systemen\, die zur Nut
+ zung durch Behörden bestimmt sind\, müssen die Anforderungen spätestens
+  jetzt erfüllen – auch wenn die Systeme schon vorher im Einsatz waren.\
+ n\nRechtsgrundlage: Art. 111 Abs. 2
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

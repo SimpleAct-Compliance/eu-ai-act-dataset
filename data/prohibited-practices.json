@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "EU AI Act Article 5: prohibited AI practices",
+    "version": "1.0.0",
+    "as_of": "2026-11-24",
+    "legal_basis": [
+      "Regulation (EU) 2024/1689 (AI Act)",
+      "Regulation (EU) 2026/1744 (Digital Omnibus on AI)"
+    ],
+    "sources": [
+      "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    ],
+    "publisher": "SimpleAct UG (haftungsbeschränkt)",
+    "license": "CC-BY-4.0",
+    "disclaimer": "Summaries for orientation, not the legal text and not legal advice. The text published in the Official Journal of the EU is authoritative."
+  },
+  "practices": [
+    {
+      "reference": "Art. 5 Abs. 1 Buchst. a",
+      "reference_en": "Art. 5(1)(a)",
+      "title": {
+        "de": "Manipulation",
+        "en": "Manipulation"
+      },
+      "description": {
+        "de": "KI, die unterschwellige Techniken außerhalb des Bewusstseins oder absichtlich manipulative oder täuschende Techniken einsetzt, um das Verhalten wesentlich zu verändern und die Fähigkeit zu einer fundierten Entscheidung deutlich zu beeinträchtigen, sodass erheblicher Schaden entsteht oder mit hinreichender Wahrscheinlichkeit entstehen wird.",
+        "en": "AI deploying subliminal techniques beyond a person's consciousness, or purposefully manipulative or deceptive techniques, to materially distort behaviour and appreciably impair the ability to make an informed decision, causing or reasonably likely to cause significant harm."
+      },
+      "applies_from": "2025-02-02"
+    },
+    {
+      "reference": "Art. 5 Abs. 1 Buchst. b",
+      "reference_en": "Art. 5(1)(b)",
+      "title": {
+        "de": "Ausnutzen von Schutzbedürftigkeit",
+        "en": "Exploiting vulnerabilities"
+      },
+      "description": {
+        "de": "KI, die eine Vulnerabilität aufgrund von Alter, Behinderung oder einer bestimmten sozialen oder wirtschaftlichen Situation ausnutzt, um das Verhalten in einer Weise wesentlich zu verändern, die erheblichen Schaden zufügt oder mit hinreichender Wahrscheinlichkeit zufügen wird.",
+        "en": "AI exploiting vulnerabilities due to age, disability or a specific social or economic situation to materially distort behaviour in a way that causes or is reasonably likely to cause significant harm."
+      },
+      "applies_from": "2025-02-02"
+    },
+    {
+      "reference": "Art. 5 Abs. 1 Buchst. c",
+      "reference_en": "Art. 5(1)(c)",
+      "title": {
+        "de": "Soziale Bewertung (Social Scoring)",
+        "en": "Social scoring"
+      },
+      "description": {
+        "de": "KI zur Bewertung oder Einstufung von Personen über einen Zeitraum anhand ihres sozialen Verhaltens oder persönlicher Eigenschaften, wenn dies zu Schlechterstellung in Zusammenhängen führt, die mit den ursprünglichen Daten nichts zu tun haben, oder zu ungerechtfertigter oder unverhältnismäßiger Schlechterstellung.",
+        "en": "AI evaluating or classifying persons over a period of time based on their social behaviour or personal characteristics, where this leads to detrimental treatment in unrelated social contexts or to unjustified or disproportionate detrimental treatment."
+      },
+      "applies_from": "2025-02-02"
+    },
+    {
+      "reference": "Art. 5 Abs. 1 Buchst. d",
+      "reference_en": "Art. 5(1)(d)",
+      "title": {
+        "de": "Straftatenprognose allein per Profiling",
+        "en": "Crime prediction by profiling alone"
+      },
+      "description": {
+        "de": "KI-Systeme für Risikobewertungen, die das Risiko einer Straftat ausschließlich auf Profiling oder persönliche Merkmale stützen. Ausgenommen ist die Unterstützung einer menschlichen Bewertung, die sich bereits auf objektive, überprüfbare Tatsachen stützt.",
+        "en": "AI systems making risk assessments of the likelihood that a person commits a criminal offence based solely on profiling or personal traits. Excluded is support for a human assessment already based on objective, verifiable facts."
+      },
+      "applies_from": "2025-02-02"
+    },
+    {
+      "reference": "Art. 5 Abs. 1 Buchst. e",
+      "reference_en": "Art. 5(1)(e)",
+      "title": {
+        "de": "Ungezieltes Auslesen von Gesichtsbildern",
+        "en": "Untargeted scraping of facial images"
+      },
+      "description": {
+        "de": "KI-Systeme, die Gesichtserkennungsdatenbanken durch ungezieltes Auslesen von Gesichtsbildern aus dem Internet oder von Überwachungsaufnahmen erstellen oder erweitern.",
+        "en": "AI systems that create or expand facial recognition databases through untargeted scraping of facial images from the internet or CCTV footage."
+      },
+      "applies_from": "2025-02-02"
+    },
+    {
+      "reference": "Art. 5 Abs. 1 Buchst. f",
+      "reference_en": "Art. 5(1)(f)",
+      "title": {
+        "de": "Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen",
+        "en": "Emotion recognition in the workplace and in education"
+      },
+      "description": {
+        "de": "KI zur Ableitung von Emotionen einer natürlichen Person am Arbeitsplatz und in Bildungseinrichtungen, es sei denn, sie soll aus medizinischen Gründen oder Sicherheitsgründen eingeführt oder auf den Markt gebracht werden.",
+        "en": "AI to infer emotions of a natural person in the areas of the workplace and education institutions, except where the system is intended to be put in place or placed on the market for medical or safety reasons."
+      },
+      "applies_from": "2025-02-02"
+    },
+    {
+      "reference": "Art. 5 Abs. 1 Buchst. g",
+      "reference_en": "Art. 5(1)(g)",
+      "title": {
+        "de": "Biometrische Kategorisierung sensibler Merkmale",
+        "en": "Biometric categorisation of sensitive traits"
+      },
+      "description": {
+        "de": "Systeme, die Personen anhand biometrischer Daten kategorisieren, um Rasse, politische Einstellungen, Gewerkschaftszugehörigkeit, religiöse oder weltanschauliche Überzeugungen, Sexualleben oder sexuelle Ausrichtung zu erschließen. Ausgenommen sind Kennzeichnung oder Filterung rechtmäßig erworbener biometrischer Datensätze und Kategorisierung im Bereich der Strafverfolgung.",
+        "en": "Systems categorising persons based on biometric data to deduce race, political opinions, trade union membership, religious or philosophical beliefs, sex life or sexual orientation. Excluded are labelling or filtering of lawfully acquired biometric datasets and categorisation in law enforcement."
+      },
+      "applies_from": "2025-02-02"
+    },
+    {
+      "reference": "Art. 5 Abs. 1 Buchst. h",
+      "reference_en": "Art. 5(1)(h)",
+      "title": {
+        "de": "Biometrische Echtzeit-Fernidentifizierung für Strafverfolgung",
+        "en": "Real-time remote biometric identification for law enforcement"
+      },
+      "description": {
+        "de": "Verwendung in öffentlich zugänglichen Räumen zu Strafverfolgungszwecken, außer soweit unbedingt erforderlich für die gezielte Suche nach bestimmten Opfern oder Vermissten, zur Abwehr einer konkreten, erheblichen und unmittelbaren Gefahr oder eines Terroranschlags oder zum Aufspüren Verdächtiger bestimmter schwerer Straftaten (Ziff. i bis iii). Die Absätze 2 bis 8 regeln die Voraussetzungen.",
+        "en": "Use in publicly accessible spaces for law enforcement, unless strictly necessary for targeted searches for specific victims or missing persons, to prevent a specific, substantial and imminent threat or a terrorist attack, or to locate suspects of certain serious offences (points (i) to (iii)). Paragraphs 2 to 8 set out the conditions."
+      },
+      "applies_from": "2025-02-02"
+    },
+    {
+      "reference": "Art. 5 Abs. 1 Buchst. ba (neu)",
+      "reference_en": "Art. 5(1)(ba) (new)",
+      "title": {
+        "de": "Nicht einvernehmliche intime Darstellungen",
+        "en": "Non-consensual intimate depictions"
+      },
+      "description": {
+        "de": "Seit der Verordnung (EU) 2026/1744: KI-Systeme, die realistische Bild-, Video-, Ton- oder ähnliche Inhalte erzeugen oder manipulieren, in denen intime Körperteile einer bestimmbaren Person oder eindeutig sexuelle Handlungen dargestellt werden, ohne deren freie, spezifische, aufgeklärte, eindeutige und ausdrückliche Zustimmung. Gilt ab 2. Dezember 2026; Absätze 1a und 1b konkretisieren den Anwendungsbereich.",
+        "en": "Added by Regulation (EU) 2026/1744: AI systems generating or manipulating realistic image, video, audio or similar content showing intimate body parts of an identifiable person or an identifiable person engaged in explicitly sexual acts, without that person's freely given, specific, informed, unambiguous and explicit consent. Applies from 2 December 2026; paragraphs 1a and 1b specify the scope."
+      },
+      "applies_from": "2026-12-02"
+    },
+    {
+      "reference": "Art. 5 Abs. 1 Buchst. bb (neu)",
+      "reference_en": "Art. 5(1)(bb) (new)",
+      "title": {
+        "de": "Material über sexuellen Missbrauch von Kindern",
+        "en": "Child sexual abuse material"
+      },
+      "description": {
+        "de": "Seit der Verordnung (EU) 2026/1744: KI-Systeme, die Material oder Darbietungen im Sinne von Art. 2 Buchst. c und e der Richtlinie 2011/93/EU erzeugen oder manipulieren, es sei denn, nach nationalem Recht gilt das „unrechtmäßige“ Verhalten als gerechtfertigt. Gilt ab 2. Dezember 2026.",
+        "en": "Added by Regulation (EU) 2026/1744: AI systems generating or manipulating material or performances within the meaning of Art. 2(c) and (e) of Directive 2011/93/EU, unless under national law the \"unlawful\" conduct is considered justified. Applies from 2 December 2026."
+      },
+      "applies_from": "2026-12-02"
+    }
+  ]
+}

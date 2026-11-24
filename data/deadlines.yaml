@@ -1,0 +1,164 @@
+meta:
+  title: "EU AI Act application dates after the Digital Omnibus"
+  version: "1.0.0"
+  as_of: "2026-11-24"
+  legal_basis:
+    - "Regulation (EU) 2024/1689 (AI Act)"
+    - "Regulation (EU) 2026/1744 (Digital Omnibus on AI)"
+  sources:
+    - "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    - "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+  publisher: "SimpleAct UG (haftungsbeschränkt)"
+  license: "CC-BY-4.0"
+  disclaimer: "Summaries for orientation, not the legal text and not legal advice. The text published in the Official Journal of the EU is authoritative."
+deadlines:
+  - id: "entry"
+    date: "2024-08-01"
+    omnibus_change: false
+    title:
+      de: "KI-Verordnung tritt in Kraft"
+      en: "AI Act enters into force"
+    description:
+      de: "Die Verordnung (EU) 2024/1689 ist in Kraft. Unmittelbare Pflichten entstehen noch nicht – der Tag startet die gestaffelten Übergangsfristen."
+      en: "Regulation (EU) 2024/1689 is in force. No obligations apply yet – the date starts the staggered transition periods."
+    legal_basis:
+      de: "Art. 113"
+      en: "Art. 113"
+    who:
+      de: "Alle"
+      en: "Everyone"
+  - id: "bans"
+    date: "2025-02-02"
+    omnibus_change: false
+    title:
+      de: "Verbotene Praktiken und KI-Kompetenz"
+      en: "Prohibited practices and AI literacy"
+    description:
+      de: "Die Verbote nach Art. 5 gelten, etwa Social Scoring, manipulative Techniken, Emotionserkennung am Arbeitsplatz und ungezieltes Auslesen von Gesichtsbildern. Seit demselben Tag müssen Anbieter und Betreiber Maßnahmen zur KI-Kompetenz ihres Personals ergreifen (Art. 4)."
+      en: "The Art. 5 prohibitions apply, e.g. social scoring, manipulative techniques, emotion recognition at work and untargeted scraping of facial images. From the same day, providers and deployers must take measures on their staff’s AI literacy (Art. 4)."
+    legal_basis:
+      de: "Art. 4, Art. 5"
+      en: "Art. 4, Art. 5"
+    who:
+      de: "Anbieter und Betreiber"
+      en: "Providers and deployers"
+  - id: "gpai"
+    date: "2025-08-02"
+    omnibus_change: false
+    title:
+      de: "KI-Modelle mit allgemeinem Verwendungszweck"
+      en: "General-purpose AI models"
+    description:
+      de: "Pflichten für Anbieter von GPAI-Modellen gelten: technische Dokumentation, Informationen für nachgelagerte Anbieter, Urheberrechts-Policy und eine Zusammenfassung der Trainingsdaten; bei systemischem Risiko zusätzliche Bewertung und Risikominderung. Zugleich gelten Governance-Struktur und Sanktionsrahmen."
+      en: "Obligations for GPAI model providers apply: technical documentation, information for downstream providers, a copyright policy and a training-data summary; for systemic-risk models additional evaluation and risk mitigation. The governance structure and the penalty framework apply as well."
+    legal_basis:
+      de: "Kap. V, Kap. VII, Art. 99"
+      en: "Ch. V, Ch. VII, Art. 99"
+    who:
+      de: "Anbieter von GPAI-Modellen"
+      en: "GPAI model providers"
+  - id: "omnibus"
+    date: "2026-07-27"
+    omnibus_change: true
+    title:
+      de: "Digital Omnibus tritt in Kraft"
+      en: "Digital Omnibus enters into force"
+    description:
+      de: "Die Verordnung (EU) 2026/1744 verschiebt die Hochrisiko-Fristen und fasst Art. 4 neu: Unternehmen müssen Maßnahmen zur Förderung der KI-Kompetenz ergreifen, aber kein bestimmtes Kompetenzniveau je Person garantieren. Für KMU und kleine Mid-Caps gibt es Erleichterungen bei Dokumentation und Qualitätsmanagement."
+      en: "Regulation (EU) 2026/1744 moves the high-risk deadlines and rewrites Art. 4: companies must take measures to promote AI literacy but no longer guarantee a specific level per person. SMEs and small mid-caps get relief on documentation and quality management."
+    legal_basis:
+      de: "VO (EU) 2026/1744"
+      en: "Reg. (EU) 2026/1744"
+    who:
+      de: "Alle"
+      en: "Everyone"
+  - id: "general"
+    date: "2026-08-02"
+    omnibus_change: false
+    title:
+      de: "Allgemeine Geltung und Transparenzpflichten"
+      en: "General application and transparency obligations"
+    description:
+      de: "Die Verordnung gilt im Übrigen allgemein. Die Transparenzpflichten nach Art. 50 greifen: KI, die mit Menschen interagiert, muss sich zu erkennen geben, Deepfakes und Emotionserkennung müssen offengelegt werden, und neu in Verkehr gebrachte generative Systeme müssen ihre Ausgaben maschinenlesbar markieren. Die Kommission kann ab jetzt Geldbußen gegen GPAI-Anbieter verhängen."
+      en: "The Regulation applies in general. The Art. 50 transparency obligations kick in: AI that interacts with people must say so, deepfakes and emotion recognition must be disclosed, and newly placed generative systems must mark their outputs in a machine-readable way. From now on the Commission can fine GPAI providers."
+    legal_basis:
+      de: "Art. 50, Art. 101, Art. 113"
+      en: "Art. 50, Art. 101, Art. 113"
+    who:
+      de: "Anbieter und Betreiber"
+      en: "Providers and deployers"
+  - id: "dec2026"
+    date: "2026-12-02"
+    omnibus_change: true
+    title:
+      de: "Ende der Übergangsfrist für KI-Markierung, neue Verbote"
+      en: "End of the marking transition, new prohibitions"
+    description:
+      de: "Generative KI-Systeme, die schon vor dem 2. August 2026 auf dem Markt waren, müssen ihre Ausgaben jetzt ebenfalls maschinenlesbar markieren (Art. 50 Abs. 2). Außerdem gelten zwei neue Verbote: KI, die ohne Einwilligung intime Darstellungen identifizierbarer Personen erzeugt oder manipuliert, und KI zur Erzeugung von Darstellungen sexuellen Kindesmissbrauchs."
+      en: "Generative AI systems already on the market before 2 August 2026 must now mark their outputs in a machine-readable way too (Art. 50(2)). Two new prohibitions apply: AI that creates or manipulates intimate depictions of identifiable people without consent, and AI that generates child sexual abuse material."
+    legal_basis:
+      de: "Art. 50 Abs. 2, Art. 5 (neu)"
+      en: "Art. 50(2), Art. 5 (new)"
+    who:
+      de: "Anbieter generativer KI, alle"
+      en: "Generative AI providers, everyone"
+  - id: "aug2027"
+    date: "2027-08-02"
+    omnibus_change: true
+    title:
+      de: "GPAI-Bestandsmodelle und KI-Reallabore"
+      en: "Legacy GPAI models and AI sandboxes"
+    description:
+      de: "GPAI-Modelle, die vor dem 2. August 2025 in Verkehr gebracht wurden, müssen die Pflichten nach Kapitel V erfüllen. Jeder Mitgliedstaat muss mindestens ein nationales KI-Reallabor betreiben – der Omnibus hat diese Frist um ein Jahr verschoben."
+      en: "GPAI models placed on the market before 2 August 2025 must meet the Chapter V obligations. Every Member State must run at least one national AI regulatory sandbox – the Omnibus pushed this back by a year."
+    legal_basis:
+      de: "Art. 111 Abs. 3, Art. 57"
+      en: "Art. 111(3), Art. 57"
+    who:
+      de: "GPAI-Anbieter, Mitgliedstaaten"
+      en: "GPAI providers, Member States"
+  - id: "annex3"
+    date: "2027-12-02"
+    omnibus_change: true
+    title:
+      de: "Hochrisiko-KI nach Anhang III"
+      en: "High-risk AI under Annex III"
+    description:
+      de: "Die Anforderungen an Hochrisiko-KI (Kapitel III, Abschnitte 1 bis 3) gelten für eigenständige Systeme nach Anhang III – etwa in Personalwesen, Bildung, Kreditwürdigkeitsprüfung, kritischer Infrastruktur und Zugang zu wesentlichen Leistungen. Anbieter brauchen Risikomanagement, technische Dokumentation, Konformitätsbewertung und Registrierung; Betreiber müssen u. a. menschliche Aufsicht sicherstellen und Protokolle aufbewahren (Art. 26)."
+      en: "The high-risk requirements (Chapter III, Sections 1 to 3) apply to stand-alone systems under Annex III – e.g. in employment, education, creditworthiness, critical infrastructure and access to essential services. Providers need risk management, technical documentation, conformity assessment and registration; deployers must ensure human oversight and keep logs, among other duties (Art. 26)."
+    legal_basis:
+      de: "Art. 6 Abs. 2, Anhang III, Art. 8–27"
+      en: "Art. 6(2), Annex III, Art. 8–27"
+    who:
+      de: "Anbieter und Betreiber von Hochrisiko-KI"
+      en: "Providers and deployers of high-risk AI"
+  - id: "annex1"
+    date: "2028-08-02"
+    omnibus_change: true
+    title:
+      de: "Hochrisiko-KI in regulierten Produkten (Anhang I)"
+      en: "High-risk AI in regulated products (Annex I)"
+    description:
+      de: "KI-Systeme, die Sicherheitsbauteil eines Produkts nach den Harmonisierungsvorschriften in Anhang I sind oder selbst ein solches Produkt sind – etwa Maschinen, Medizinprodukte, Spielzeug oder Aufzüge – müssen die Hochrisiko-Anforderungen erfüllen. Vor dem Omnibus war hierfür August 2027 vorgesehen."
+      en: "AI systems that are a safety component of a product under the Annex I harmonisation legislation, or are such a product themselves – e.g. machinery, medical devices, toys or lifts – must meet the high-risk requirements. Before the Omnibus this was August 2027."
+    legal_basis:
+      de: "Art. 6 Abs. 1, Anhang I"
+      en: "Art. 6(1), Annex I"
+    who:
+      de: "Hersteller und Anbieter regulierter Produkte"
+      en: "Manufacturers and providers of regulated products"
+  - id: "public"
+    date: "2030-08-02"
+    omnibus_change: false
+    title:
+      de: "Bestands-Hochrisiko-KI bei Behörden"
+      en: "Legacy high-risk AI at public authorities"
+    description:
+      de: "Anbieter und Betreiber von Hochrisiko-KI-Systemen, die zur Nutzung durch Behörden bestimmt sind, müssen die Anforderungen spätestens jetzt erfüllen – auch wenn die Systeme schon vorher im Einsatz waren."
+      en: "Providers and deployers of high-risk AI systems intended for use by public authorities must comply by now at the latest – even if the systems were in use before."
+    legal_basis:
+      de: "Art. 111 Abs. 2"
+      en: "Art. 111(2)"
+    who:
+      de: "Behörden und ihre Anbieter"
+      en: "Public authorities and their providers"

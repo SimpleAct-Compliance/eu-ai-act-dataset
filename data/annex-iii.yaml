@@ -1,0 +1,336 @@
+meta:
+  title: "EU AI Act Annex III: high-risk areas and use cases"
+  version: "1.0.0"
+  as_of: "2026-11-24"
+  legal_basis:
+    - "Regulation (EU) 2024/1689 (AI Act)"
+    - "Regulation (EU) 2026/1744 (Digital Omnibus on AI)"
+  sources:
+    - "https://eur-lex.europa.eu/eli/reg/2024/1689/oj"
+    - "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+  publisher: "SimpleAct UG (haftungsbeschränkt)"
+  license: "CC-BY-4.0"
+  disclaimer: "Summaries for orientation, not the legal text and not legal advice. The text published in the Official Journal of the EU is authoritative."
+areas:
+  - point: 1
+    id: "biometrics"
+    area:
+      de: "Biometrie"
+      en: "Biometrics"
+    note:
+      de: "Biometrische Systeme sind nur erfasst, soweit ihr Einsatz nach Unionsrecht oder nationalem Recht überhaupt zulässig ist. Manche biometrischen Praktiken sind schon nach Art. 5 verboten – etwa Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen (außer aus medizinischen oder Sicherheitsgründen) oder eine Kategorisierung, die auf politische Meinung, Religion oder sexuelle Orientierung schließt."
+      en: "Biometric systems are only covered in so far as their use is permitted under Union or national law at all. Some biometric practices are already prohibited under Article 5 – such as emotion recognition at work and in education (except for medical or safety reasons) or categorisation that infers political opinions, religion or sexual orientation."
+    use_cases:
+      - point: "1a"
+        description:
+          de: "Biometrische Fernidentifizierung: Personen werden aus der Distanz und ohne ihr aktives Zutun mit einer Referenzdatenbank abgeglichen."
+          en: "Remote biometric identification: people are matched against a reference database at a distance and without their active involvement."
+        example:
+          de: "Kamerasystem, das Besucher eines Stadions oder Einkaufszentrums mit einer Liste gesperrter Personen abgleicht."
+          en: "Camera system that matches visitors to a stadium or shopping centre against a list of banned persons."
+        not_covered_if:
+          de: "das System nur bestätigt, dass jemand die Person ist, die sie zu sein vorgibt – etwa Face-ID am Diensthandy oder der Gesichtsabgleich mit dem eigenen Ausweis am Zutrittsgate (reine Verifizierung)."
+          en: "the system only confirms that someone is who they claim to be – such as Face ID on a work phone or matching a face against one’s own ID card at an access gate (pure verification)."
+      - point: "1b"
+        description:
+          de: "Biometrische Kategorisierung: Personen werden anhand biometrischer Daten nach abgeleiteten sensiblen oder geschützten Merkmalen eingeteilt."
+          en: "Biometric categorisation: people are sorted based on biometric data according to inferred sensitive or protected attributes."
+        example:
+          de: "Videoanalyse im Handel, die Kundinnen und Kunden aus Gesichtsbildern nach geschätztem Alter und Geschlecht gruppiert."
+          en: "In-store video analytics that groups customers by estimated age and sex from facial images."
+        not_covered_if:
+          de: "die Einteilung an keine sensiblen oder geschützten Merkmale anknüpft oder nur eine technisch notwendige Nebenfunktion eines anderen Dienstes ist, etwa ein Foto-Filter, der Gesichtspartien erkennt."
+          en: "the grouping is not linked to sensitive or protected attributes, or is merely a technically necessary ancillary feature of another service, such as a photo filter that detects facial features."
+      - point: "1c"
+        description:
+          de: "Emotionserkennung: Das System leitet aus Gesicht, Stimme oder Körpersprache Emotionen oder Absichten ab."
+          en: "Emotion recognition: the system infers emotions or intentions from face, voice or body language."
+        example:
+          de: "Auswertung von Stimme und Tonfall in Kundengesprächen eines Callcenters, um die Stimmung der Anrufenden zu erkennen."
+          en: "Analysis of voice and tone in call-centre conversations to detect the mood of callers."
+        not_covered_if:
+          de: "nur offensichtliche Ausdrücke wie ein Lächeln erfasst werden, ohne auf Gefühle zu schließen, oder es um körperliche Zustände wie Müdigkeit geht. Achtung: am Arbeitsplatz und in der Bildung ist Emotionserkennung grundsätzlich verboten."
+          en: "only obvious expressions such as a smile are detected without inferring feelings, or the system concerns physical states such as fatigue. Note: emotion recognition at work and in education is prohibited in principle."
+  - point: 2
+    id: "infrastructure"
+    area:
+      de: "Kritische Infrastruktur"
+      en: "Critical infrastructure"
+    note:
+      de: "Hier zählt allein die Rolle als Sicherheitsbauteil: eine Komponente, deren Ausfall oder Fehlfunktion die Infrastruktur physisch gefährden oder Gesundheit und Sicherheit von Menschen bedrohen kann. Komponenten, die ausschließlich der Cybersicherheit dienen, sehen die Erwägungsgründe nicht als Sicherheitsbauteile in diesem Sinn."
+      en: "What matters here is the role as a safety component: a component whose failure or malfunction can physically endanger the infrastructure or threaten people’s health and safety. According to the recitals, components used solely for cybersecurity are not safety components in this sense."
+    use_cases:
+      - point: "2"
+        description:
+          de: "Sicherheitsbauteile in Verwaltung und Betrieb kritischer digitaler Infrastruktur, des Straßenverkehrs sowie der Wasser-, Gas-, Wärme- und Stromversorgung."
+          en: "Safety components in the management and operation of critical digital infrastructure, road traffic, and the supply of water, gas, heating and electricity."
+        example:
+          de: "KI, die in einem Verteilnetz Lastflüsse regelt und bei drohender Überlast selbstständig Netzabschnitte abschaltet; KI-gesteuerte Ampelschaltung."
+          en: "AI that controls load flows in a distribution grid and switches off grid sections on its own when overload looms; AI-controlled traffic lights."
+        not_covered_if:
+          de: "das System kein Sicherheitsbauteil ist, also ein Fehler weder Menschen noch die Versorgung gefährdet – etwa KI für Abrechnung, Kundenservice oder die Auswertung von Verbrauchsdaten für Berichte."
+          en: "the system is not a safety component, so an error endangers neither people nor supply – such as AI for billing, customer service or analysing consumption data for reports."
+  - point: 3
+    id: "education"
+    area:
+      de: "Allgemeine und berufliche Bildung"
+      en: "Education and vocational training"
+    note:
+      de: "Erfasst sind Bildungseinrichtungen aller Ebenen, von der Schule über Hochschulen bis zur beruflichen Weiterbildung. Entscheidend ist, ob die KI über Zugang, Bewertung oder Einstufung von Lernenden mitentscheidet – denn das prägt Bildungs- und Berufswege."
+      en: "Educational institutions at all levels are covered, from schools to universities to vocational training. The question is whether the AI co-determines access, assessment or placement of learners – because that shapes educational and career paths."
+    use_cases:
+      - point: "3a"
+        description:
+          de: "Zugang, Zulassung oder Zuweisung zu Bildungseinrichtungen bestimmen."
+          en: "Determining access, admission or assignment to educational institutions."
+        example:
+          de: "Software, die Studienbewerbungen vorsortiert und eine Rangliste für die Zulassung erstellt."
+          en: "Software that pre-sorts university applications and produces a ranking for admission."
+        not_covered_if:
+          de: "das System nur Unterlagen auf Vollständigkeit prüft oder Termine für Auswahlgespräche vergibt – eine eng gefasste Verfahrensaufgabe."
+          en: "the system only checks documents for completeness or schedules selection interviews – a narrow procedural task."
+      - point: "3b"
+        description:
+          de: "Lernergebnisse bewerten, auch wenn damit der Lernprozess gesteuert wird."
+          en: "Evaluating learning outcomes, including where this is used to steer the learning process."
+        example:
+          de: "Automatische Korrektur von Klausuren; Lernplattform, die aus Testergebnissen festlegt, welche Module jemand als Nächstes bearbeiten muss."
+          en: "Automated marking of exams; a learning platform that uses test results to decide which modules someone must take next."
+        not_covered_if:
+          de: "die KI nur die Sprache eines Feedbacks glättet, das die Lehrkraft bereits verfasst hat, oder Übungsaufgaben ohne Bewertung bereitstellt."
+          en: "the AI only polishes the wording of feedback the teacher has already written, or provides practice exercises without assessment."
+      - point: "3c"
+        description:
+          de: "Bewerten, welches Bildungsniveau eine Person erhalten soll oder erreichen kann."
+          en: "Assessing the appropriate level of education a person will receive or be able to access."
+        example:
+          de: "Einstufungstest, der automatisch über das Niveau in einem Sprachkurs oder den Zugang zu einem Förderprogramm entscheidet."
+          en: "Placement test that automatically decides the level of a language course or access to a support programme."
+        not_covered_if:
+          de: "das Ergebnis eine unverbindliche Selbsteinschätzung bleibt, die keinen Einfluss auf Zugang oder Einstufung hat."
+          en: "the result remains a non-binding self-assessment with no effect on access or placement."
+      - point: "3d"
+        description:
+          de: "Verbotenes Verhalten von Prüflingen während Prüfungen überwachen und erkennen."
+          en: "Monitoring and detecting prohibited behaviour of students during tests."
+        example:
+          de: "Online-Proctoring, das per Webcam Blickbewegungen auswertet und mögliche Täuschungsversuche meldet."
+          en: "Online proctoring that analyses eye movements via webcam and flags possible cheating."
+        not_covered_if:
+          de: "das System nur die Prüfungsumgebung technisch absichert (etwa Browser-Sperre) und kein Verhalten der Prüflinge bewertet."
+          en: "the system only secures the exam environment technically (such as a browser lock) and does not assess candidates’ behaviour."
+  - point: 4
+    id: "employment"
+    area:
+      de: "Beschäftigung, Personalmanagement und Zugang zur Selbstständigkeit"
+      en: "Employment, workers management and access to self-employment"
+    note:
+      de: "Der praktisch wichtigste Bereich für Unternehmen. Er reicht vom Recruiting bis zur Kündigung und schließt Plattformarbeit ein. Viele HR-Tools enthalten heute KI-Funktionen – entscheidend ist, ob sie Menschen bewerten, auswählen oder steuern, oder nur Verwaltungsarbeit erleichtern."
+      en: "The most relevant area for companies in practice. It runs from recruitment to dismissal and includes platform work. Many HR tools now contain AI features – what matters is whether they assess, select or steer people, or merely ease administrative work."
+    use_cases:
+      - point: "4a"
+        description:
+          de: "Einstellung und Auswahl: gezielte Stellenanzeigen schalten, Bewerbungen analysieren und filtern, Bewerberinnen und Bewerber bewerten."
+          en: "Recruitment and selection: placing targeted job ads, analysing and filtering applications, evaluating candidates."
+        example:
+          de: "Bewerbermanagement-Software, die Lebensläufe nach Passung bewertet und eine Rangliste fürs Recruiting erstellt; Video-Interview-Analyse."
+          en: "Applicant tracking software that scores CVs for fit and produces a ranking for recruiters; video interview analysis."
+        not_covered_if:
+          de: "die KI nur Stellenbeschreibungen aus Vorgaben des Teams formuliert – laut Leitlinien-Entwurf eine eng gefasste Verfahrensaufgabe – oder Interviewtermine koordiniert."
+          en: "the AI only drafts job descriptions from the team’s input – a narrow procedural task according to the draft guidelines – or coordinates interview slots."
+      - point: "4b"
+        description:
+          de: "Entscheidungen über Arbeitsbedingungen, Beförderung und Kündigung, Aufgabenzuweisung nach Verhalten oder persönlichen Merkmalen, Überwachung und Bewertung von Leistung und Verhalten."
+          en: "Decisions on terms of work, promotion and termination, allocating tasks based on behaviour or personal traits, monitoring and evaluating performance and behaviour."
+        example:
+          de: "System, das Lager- oder Lieferkräften Aufträge nach individueller Leistung zuteilt und Kennzahlen für Mitarbeitergespräche auswertet."
+          en: "System that allocates jobs to warehouse or delivery staff based on individual performance and analyses metrics for appraisals."
+        not_covered_if:
+          de: "Schichten allein nach Verfügbarkeit und formaler Qualifikation geplant werden, ohne Verhalten oder Persönlichkeit zu bewerten, oder die KI nur Arbeitsverträge übersetzt."
+          en: "shifts are planned solely by availability and formal qualifications without assessing behaviour or personality, or the AI only translates employment contracts."
+  - point: 5
+    id: "services"
+    area:
+      de: "Zugang zu grundlegenden privaten und öffentlichen Diensten"
+      en: "Access to essential private and public services"
+    note:
+      de: "Hier geht es um Leistungen, auf die Menschen für ein selbstbestimmtes Leben angewiesen sind: Sozialleistungen, Kredit, Lebens- und Krankenversicherung und Hilfe im Notfall. Für Banken, Versicherer und Fintechs ist dieser Bereich zentral."
+      en: "This area concerns services people rely on to lead an independent life: public benefits, credit, life and health insurance and emergency help. For banks, insurers and fintechs it is central."
+    use_cases:
+      - point: "5a"
+        description:
+          de: "Behörden oder Stellen in ihrem Auftrag prüfen den Anspruch auf öffentliche Unterstützungsleistungen und Dienste, einschließlich Gesundheitsdiensten, und gewähren, kürzen, widerrufen oder fordern sie zurück."
+          en: "Public authorities, or others on their behalf, evaluate eligibility for public assistance benefits and services, including healthcare, and grant, reduce, revoke or reclaim them."
+        example:
+          de: "System einer Sozialbehörde, das Leistungsanträge bewertet und Kürzungen oder Rückforderungen vorschlägt."
+          en: "System at a social welfare authority that assesses benefit applications and proposes reductions or reclaims."
+        not_covered_if:
+          de: "die KI nur eingehende Post der zuständigen Stelle zuordnet oder Anträge auf fehlende Angaben prüft."
+          en: "the AI only routes incoming mail to the responsible unit or checks applications for missing information."
+      - point: "5b"
+        description:
+          de: "Kreditwürdigkeit natürlicher Personen bewerten oder ihre Kreditpunkte ermitteln – ausgenommen Systeme zur Aufdeckung von Finanzbetrug."
+          en: "Evaluating the creditworthiness of natural persons or establishing their credit score – except systems for detecting financial fraud."
+        example:
+          de: "Scoring-Modell einer Bank oder eines Ratenkauf-Anbieters, das über Kreditlimits für Privatkunden entscheidet."
+          en: "Scoring model of a bank or buy-now-pay-later provider that decides on credit limits for consumers."
+        not_covered_if:
+          de: "das System nur Betrugsmuster in Transaktionen erkennt (ausdrücklich ausgenommen) oder die Bonität von Unternehmen statt natürlicher Personen bewertet."
+          en: "the system only detects fraud patterns in transactions (expressly excluded) or rates the creditworthiness of companies rather than natural persons."
+      - point: "5c"
+        description:
+          de: "Risikobewertung und Preisbildung für natürliche Personen bei Lebens- und Krankenversicherungen."
+          en: "Risk assessment and pricing for natural persons in life and health insurance."
+        example:
+          de: "Tarifmodell, das Prämien einer privaten Krankenversicherung individuell aus Gesundheits- und Lebensstildaten berechnet."
+          en: "Pricing model that calculates private health insurance premiums individually from health and lifestyle data."
+        not_covered_if:
+          de: "es um Kfz-, Hausrat- oder andere Sachversicherungen geht oder die KI nur eingehende Schadenmeldungen sortiert."
+          en: "it concerns motor, home contents or other property insurance, or the AI only sorts incoming claims."
+      - point: "5d"
+        description:
+          de: "Notrufe bewerten und einordnen, Einsatzkräfte wie Polizei, Feuerwehr und Rettungsdienst disponieren oder priorisieren, Patiententriage in der Notfallversorgung."
+          en: "Evaluating and classifying emergency calls, dispatching or prioritising first responders such as police, fire brigade and ambulance, and patient triage in emergency care."
+        example:
+          de: "Leitstellen-Software, die Notrufe nach Dringlichkeit einstuft und die Reihenfolge der Rettungswagen vorschlägt; Ersteinschätzung in der Notaufnahme."
+          en: "Control-room software that ranks emergency calls by urgency and proposes the order of ambulances; initial triage in an emergency department."
+        not_covered_if:
+          de: "das System Anrufe nur transkribiert oder Einsatzorte auf der Karte anzeigt, ohne die Priorisierung zu beeinflussen."
+          en: "the system only transcribes calls or shows locations on a map without influencing prioritisation."
+  - point: 6
+    id: "law-enforcement"
+    area:
+      de: "Strafverfolgung"
+      en: "Law enforcement"
+    note:
+      de: "Erfasst sind Systeme, die von oder im Auftrag von Strafverfolgungsbehörden eingesetzt werden – und nur, soweit das nach Unions- oder nationalem Recht zulässig ist. Für Unternehmen ist der Bereich vor allem als Anbieter solcher Lösungen relevant. Einige Praktiken, etwa Kriminalitätsprognosen allein aufgrund von Profiling, sind nach Art. 5 verboten."
+      en: "Covered are systems used by or on behalf of law enforcement authorities – and only in so far as permitted under Union or national law. For companies this area matters mainly as providers of such solutions. Some practices, such as crime predictions based solely on profiling, are prohibited under Article 5."
+    use_cases:
+      - point: "6a"
+        description:
+          de: "Das Risiko einschätzen, dass eine Person Opfer einer Straftat wird."
+          en: "Assessing the risk of a person becoming the victim of a criminal offence."
+        example:
+          de: "Analysewerkzeug, das abschätzt, welche Personen besonders gefährdet sind, Opfer häuslicher Gewalt zu werden."
+          en: "Analysis tool that estimates which persons are at particular risk of becoming victims of domestic violence."
+        not_covered_if:
+          de: "nur anonyme Lagebilder ohne Bezug zu einzelnen Personen erstellt werden."
+          en: "only anonymous situation reports without reference to individuals are produced."
+      - point: "6b"
+        description:
+          de: "Lügendetektoren und ähnliche Instrumente."
+          en: "Polygraphs and similar tools."
+        example:
+          de: "Software, die aus Stimme oder Mimik in Vernehmungen auf die Glaubwürdigkeit von Aussagen schließen soll."
+          en: "Software meant to infer the credibility of statements from voice or facial expressions during interviews."
+        not_covered_if:
+          de: "kaum Spielraum: Solche Werkzeuge zielen direkt auf die Bewertung von Menschen."
+          en: "hardly any leeway: such tools are aimed directly at assessing people."
+      - point: "6c"
+        description:
+          de: "Die Verlässlichkeit von Beweismitteln bewerten."
+          en: "Evaluating the reliability of evidence."
+        example:
+          de: "KI, die in einem Ermittlungsverfahren die Echtheit von Fotos, Videos oder Dokumenten bewertet."
+          en: "AI that assesses the authenticity of photos, videos or documents in an investigation."
+        not_covered_if:
+          de: "die KI Beweisdateien nur indexiert, durchsuchbar macht oder Dubletten entfernt."
+          en: "the AI only indexes evidence files, makes them searchable or removes duplicates."
+      - point: "6d"
+        description:
+          de: "Das Risiko einer Straftat oder eines Rückfalls einschätzen, nicht allein auf Profiling gestützt, oder Persönlichkeitsmerkmale und früheres kriminelles Verhalten bewerten."
+          en: "Assessing the risk of offending or re-offending, not solely based on profiling, or assessing personality traits and past criminal behaviour."
+        example:
+          de: "Rückfallprognose, die Bewährungshelferinnen eine Risikostufe auf Basis objektiver Fakten vorschlägt."
+          en: "Recidivism tool that proposes a risk level to probation officers based on objective facts."
+        not_covered_if:
+          de: "nichts davon zutrifft. Achtung: Prognosen allein auf Basis von Profiling oder Persönlichkeitsmerkmalen sind nach Art. 5 Abs. 1 Buchst. d verboten."
+          en: "none of this applies. Note: predictions based solely on profiling or personality traits are prohibited under Article 5(1)(d)."
+      - point: "6e"
+        description:
+          de: "Profiling natürlicher Personen bei der Aufdeckung, Ermittlung oder Verfolgung von Straftaten."
+          en: "Profiling of natural persons in the detection, investigation or prosecution of criminal offences."
+        example:
+          de: "Auswertung von Kommunikations- und Bewegungsdaten, um mögliche Tatverdächtige herauszufiltern."
+          en: "Analysis of communication and movement data to filter out possible suspects."
+        not_covered_if:
+          de: "keine Ausnahme: Profiling ist nach Art. 6 Abs. 3 immer hochriskant."
+          en: "no exemption: under Article 6(3), profiling is always high-risk."
+  - point: 7
+    id: "migration"
+    area:
+      de: "Migration, Asyl und Grenzkontrolle"
+      en: "Migration, asylum and border control"
+    note:
+      de: "Erfasst sind Systeme, die von oder im Auftrag zuständiger Behörden sowie von Organen der Union eingesetzt werden, soweit das rechtlich zulässig ist. Betroffen sind Menschen in einer besonders verletzlichen Lage – deshalb ist die Liste hier vergleichsweise weit."
+      en: "Covered are systems used by or on behalf of competent public authorities and Union bodies, in so far as legally permitted. The people affected are in a particularly vulnerable position – which is why the list is comparatively broad here."
+    use_cases:
+      - point: "7a"
+        description:
+          de: "Lügendetektoren und ähnliche Instrumente."
+          en: "Polygraphs and similar tools."
+        example:
+          de: "Befragungs-Tool an der Grenze, das Antworten automatisiert auf Glaubwürdigkeit auswertet."
+          en: "Border interview tool that automatically scores answers for credibility."
+        not_covered_if:
+          de: "kaum Spielraum: Solche Werkzeuge zielen direkt auf die Bewertung von Menschen."
+          en: "hardly any leeway: such tools are aimed directly at assessing people."
+      - point: "7b"
+        description:
+          de: "Risiken bewerten, die von einer Person ausgehen sollen, die einreisen will oder eingereist ist – etwa für Sicherheit, irreguläre Migration oder Gesundheit."
+          en: "Assessing risks allegedly posed by a person who intends to enter or has entered – such as security, irregular migration or health risks."
+        example:
+          de: "System, das Reisende vor der Einreise automatisch einer Risikostufe zuordnet."
+          en: "System that automatically assigns travellers a risk level before entry."
+        not_covered_if:
+          de: "nur aggregierte Reisedaten für die Personalplanung an Grenzübergängen ausgewertet werden."
+          en: "only aggregated travel data are analysed for staff planning at border crossings."
+      - point: "7c"
+        description:
+          de: "Behörden bei der Prüfung von Asyl-, Visa- und Aufenthaltsanträgen und zugehörigen Beschwerden unterstützen, auch bei der Bewertung von Beweismitteln."
+          en: "Assisting authorities in examining applications for asylum, visas and residence permits and related complaints, including assessing evidence."
+        example:
+          de: "KI, die Visumanträge vorab bewertet und auf mögliche Ablehnungsgründe hinweist."
+          en: "AI that pre-assesses visa applications and points out possible grounds for refusal."
+        not_covered_if:
+          de: "die KI nur Dokumente übersetzt oder Anträge den zuständigen Stellen zuordnet – vorbereitende Aufgaben, die dokumentiert werden müssen."
+          en: "the AI only translates documents or routes applications to the responsible units – preparatory tasks that must be documented."
+      - point: "7d"
+        description:
+          de: "Personen im Zusammenhang mit Migration, Asyl und Grenzkontrolle aufspüren, erkennen oder identifizieren – außer bei der Prüfung von Reisedokumenten."
+          en: "Detecting, recognising or identifying persons in the context of migration, asylum and border control – except verifying travel documents."
+        example:
+          de: "Kamera- oder Drohnenanalyse, die Personen im Grenzgebiet erkennt und identifiziert."
+          en: "Camera or drone analysis that detects and identifies people in border areas."
+        not_covered_if:
+          de: "nur die Echtheit eines Reisedokuments geprüft wird – das ist ausdrücklich ausgenommen."
+          en: "only the authenticity of a travel document is checked – this is expressly excluded."
+  - point: 8
+    id: "justice"
+    area:
+      de: "Rechtspflege und demokratische Prozesse"
+      en: "Administration of justice and democratic processes"
+    note:
+      de: "Rechtsprechung und Wahlen sind Kern des Rechtsstaats. Erfasst ist KI, die Gerichte inhaltlich unterstützt oder Wahlen beeinflussen soll – nicht aber rein organisatorische Hilfe, etwa beim Anonymisieren von Urteilen oder bei der Logistik eines Wahlkampfs."
+      en: "Courts and elections are at the core of the rule of law. Covered is AI that supports courts on substance or is meant to influence elections – not purely organisational help, such as anonymising judgments or the logistics of a campaign."
+    use_cases:
+      - point: "8a"
+        description:
+          de: "Justizbehörden dabei unterstützen, Sachverhalte und Rechtsvorschriften zu ermitteln, auszulegen und auf einen konkreten Fall anzuwenden; ebenso bei der alternativen Streitbeilegung."
+          en: "Assisting judicial authorities in researching and interpreting facts and the law and applying the law to a concrete case; likewise in alternative dispute resolution."
+        example:
+          de: "System, das einem Gericht oder einer Schlichtungsstelle auf Basis der Akte Entscheidungsvorschläge macht."
+          en: "System that proposes decisions to a court or arbitration body based on the case file."
+        not_covered_if:
+          de: "die KI rein administrative Hilfsarbeit erledigt, etwa Urteile anonymisiert, Termine plant oder interne Kommunikation unterstützt."
+          en: "the AI performs purely administrative support, such as anonymising judgments, scheduling or internal communication."
+      - point: "8b"
+        description:
+          de: "Das Ergebnis von Wahlen oder Abstimmungen oder das Wahlverhalten von Menschen beeinflussen."
+          en: "Influencing the outcome of an election or referendum or people’s voting behaviour."
+        example:
+          de: "System, das Wählergruppen mit personalisierten politischen Botschaften anspricht, um ihr Stimmverhalten zu verändern."
+          en: "System that targets voter groups with personalised political messages to change how they vote."
+        not_covered_if:
+          de: "Kampagnen nur organisatorisch oder logistisch unterstützt werden und niemand den Ausgaben direkt ausgesetzt ist – etwa die Routenplanung für Infostände."
+          en: "campaigns are only supported organisationally or logistically and nobody is directly exposed to the output – such as route planning for campaign stands."

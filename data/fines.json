@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "EU AI Act fines under Article 99",
+    "version": "1.0.0",
+    "as_of": "2026-11-24",
+    "legal_basis": [
+      "Regulation (EU) 2024/1689 (AI Act)",
+      "Regulation (EU) 2026/1744 (Digital Omnibus on AI)"
+    ],
+    "sources": [
+      "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    ],
+    "publisher": "SimpleAct UG (haftungsbeschränkt)",
+    "license": "CC-BY-4.0",
+    "disclaimer": "Summaries for orientation, not the legal text and not legal advice. The text published in the Official Journal of the EU is authoritative."
+  },
+  "tiers": [
+    {
+      "tier": 1,
+      "legal_basis": "Art. 99 Abs. 3",
+      "max_amount_eur": 35000000,
+      "max_percent_worldwide_turnover": 7,
+      "rule": "whichever_is_higher",
+      "sme_rule": "whichever_is_lower",
+      "infringement": {
+        "de": "Missachtung der verbotenen KI-Praktiken nach Art. 5",
+        "en": "Non-compliance with the prohibited AI practices in Article 5"
+      },
+      "summary": {
+        "de": "Bis zu 35 Mio. EUR oder bis zu 7 % des weltweiten Jahresumsatzes, je nachdem, welcher Betrag höher ist",
+        "en": "Up to EUR 35 million or up to 7 % of worldwide annual turnover, whichever is higher"
+      }
+    },
+    {
+      "tier": 2,
+      "legal_basis": "Art. 99 Abs. 4",
+      "max_amount_eur": 15000000,
+      "max_percent_worldwide_turnover": 3,
+      "rule": "whichever_is_higher",
+      "sme_rule": "whichever_is_lower",
+      "infringement": {
+        "de": "Verstoß gegen die in Abs. 4 aufgezählten Pflichten (siehe unten)",
+        "en": "Non-compliance with the obligations listed in para. 4 (see below)"
+      },
+      "summary": {
+        "de": "Bis zu 15 Mio. EUR oder bis zu 3 % des weltweiten Jahresumsatzes, je nachdem, welcher Betrag höher ist",
+        "en": "Up to EUR 15 million or up to 3 % of worldwide annual turnover, whichever is higher"
+      }
+    },
+    {
+      "tier": 3,
+      "legal_basis": "Art. 99 Abs. 5",
+      "max_amount_eur": 7500000,
+      "max_percent_worldwide_turnover": 1,
+      "rule": "whichever_is_higher",
+      "sme_rule": "whichever_is_lower",
+      "infringement": {
+        "de": "Falsche, unvollständige oder irreführende Informationen an notifizierte Stellen oder zuständige nationale Behörden auf Auskunftsersuchen",
+        "en": "Supplying incorrect, incomplete or misleading information to notified bodies or national competent authorities in reply to a request"
+      },
+      "summary": {
+        "de": "Bis zu 7,5 Mio. EUR oder bis zu 1 % des weltweiten Jahresumsatzes, je nachdem, welcher Betrag höher ist",
+        "en": "Up to EUR 7.5 million or up to 1 % of worldwide annual turnover, whichever is higher"
+      }
+    }
+  ]
+}

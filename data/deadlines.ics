@@ -1,0 +1,133 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SimpleAct//eu-ai-act-dataset//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:EU AI Act: application dates
+BEGIN:VEVENT
+UID:eu-ai-act-entry-2024-08-01@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20240801
+DTEND;VALUE=DATE:20240802
+SUMMARY:EU AI Act: AI Act enters into force
+DESCRIPTION:Regulation (EU) 2024/1689 is in force. No obligations apply yet
+  – the date starts the staggered transition periods.\n\nLegal basis: Art
+ . 113
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-bans-2025-02-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20250202
+DTEND;VALUE=DATE:20250203
+SUMMARY:EU AI Act: Prohibited practices and AI literacy
+DESCRIPTION:The Art. 5 prohibitions apply\, e.g. social scoring\, manipulat
+ ive techniques\, emotion recognition at work and untargeted scraping of fa
+ cial images. From the same day\, providers and deployers must take measure
+ s on their staff’s AI literacy (Art. 4).\n\nLegal basis: Art. 4\, Art. 5
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-gpai-2025-08-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20250802
+DTEND;VALUE=DATE:20250803
+SUMMARY:EU AI Act: General-purpose AI models
+DESCRIPTION:Obligations for GPAI model providers apply: technical documenta
+ tion\, information for downstream providers\, a copyright policy and a tra
+ ining-data summary\; for systemic-risk models additional evaluation and ri
+ sk mitigation. The governance structure and the penalty framework apply as
+  well.\n\nLegal basis: Ch. V\, Ch. VII\, Art. 99
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-omnibus-2026-07-27@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:EU AI Act: Digital Omnibus enters into force
+DESCRIPTION:Regulation (EU) 2026/1744 moves the high-risk deadlines and rew
+ rites Art. 4: companies must take measures to promote AI literacy but no l
+ onger guarantee a specific level per person. SMEs and small mid-caps get r
+ elief on documentation and quality management.\n\nLegal basis: Reg. (EU) 2
+ 026/1744
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-general-2026-08-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:EU AI Act: General application and transparency obligations
+DESCRIPTION:The Regulation applies in general. The Art. 50 transparency obl
+ igations kick in: AI that interacts with people must say so\, deepfakes an
+ d emotion recognition must be disclosed\, and newly placed generative syst
+ ems must mark their outputs in a machine-readable way. From now on the Com
+ mission can fine GPAI providers.\n\nLegal basis: Art. 50\, Art. 101\, Art.
+  113
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-dec2026-2026-12-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:EU AI Act: End of the marking transition\, new prohibitions
+DESCRIPTION:Generative AI systems already on the market before 2 August 202
+ 6 must now mark their outputs in a machine-readable way too (Art. 50(2)). 
+ Two new prohibitions apply: AI that creates or manipulates intimate depict
+ ions of identifiable people without consent\, and AI that generates child 
+ sexual abuse material.\n\nLegal basis: Art. 50(2)\, Art. 5 (new)
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-aug2027-2027-08-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+SUMMARY:EU AI Act: Legacy GPAI models and AI sandboxes
+DESCRIPTION:GPAI models placed on the market before 2 August 2025 must meet
+  the Chapter V obligations. Every Member State must run at least one natio
+ nal AI regulatory sandbox – the Omnibus pushed this back by a year.\n\nL
+ egal basis: Art. 111(3)\, Art. 57
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-annex3-2027-12-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20271202
+DTEND;VALUE=DATE:20271203
+SUMMARY:EU AI Act: High-risk AI under Annex III
+DESCRIPTION:The high-risk requirements (Chapter III\, Sections 1 to 3) appl
+ y to stand-alone systems under Annex III – e.g. in employment\, educatio
+ n\, creditworthiness\, critical infrastructure and access to essential ser
+ vices. Providers need risk management\, technical documentation\, conformi
+ ty assessment and registration\; deployers must ensure human oversight and
+  keep logs\, among other duties (Art. 26).\n\nLegal basis: Art. 6(2)\, Ann
+ ex III\, Art. 8–27
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-annex1-2028-08-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20280802
+DTEND;VALUE=DATE:20280803
+SUMMARY:EU AI Act: High-risk AI in regulated products (Annex I)
+DESCRIPTION:AI systems that are a safety component of a product under the A
+ nnex I harmonisation legislation\, or are such a product themselves – e.
+ g. machinery\, medical devices\, toys or lifts – must meet the high-risk
+  requirements. Before the Omnibus this was August 2027.\n\nLegal basis: Ar
+ t. 6(1)\, Annex I
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:eu-ai-act-public-2030-08-02@simpleact.de
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20300802
+DTEND;VALUE=DATE:20300803
+SUMMARY:EU AI Act: Legacy high-risk AI at public authorities
+DESCRIPTION:Providers and deployers of high-risk AI systems intended for us
+ e by public authorities must comply by now at the latest – even if the s
+ ystems were in use before.\n\nLegal basis: Art. 111(2)
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

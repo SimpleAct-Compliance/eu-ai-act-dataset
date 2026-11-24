@@ -1,0 +1,1029 @@
+{
+  "meta": {
+    "title": "EU AI Act obligations by role, article and application date",
+    "version": "1.0.0",
+    "as_of": "2026-11-24",
+    "legal_basis": [
+      "Regulation (EU) 2024/1689 (AI Act)",
+      "Regulation (EU) 2026/1744 (Digital Omnibus on AI)"
+    ],
+    "sources": [
+      "https://eur-lex.europa.eu/eli/reg/2024/1689/oj",
+      "https://eur-lex.europa.eu/eli/reg/2026/1744/oj"
+    ],
+    "publisher": "SimpleAct UG (haftungsbeschränkt)",
+    "license": "CC-BY-4.0",
+    "disclaimer": "Summaries for orientation, not the legal text and not legal advice. The text published in the Official Journal of the EU is authoritative."
+  },
+  "obligations": [
+    {
+      "id": "all_organisations-art-4",
+      "category": "all_organisations",
+      "type": "obligation",
+      "article": "Art. 4",
+      "article_en": "Art. 4",
+      "roles": [
+        "provider",
+        "deployer"
+      ],
+      "who": {
+        "de": "Anbieter, Betreiber",
+        "en": "Providers, deployers"
+      },
+      "duty": {
+        "de": "Maßnahmen zur Förderung der KI-Kompetenz von Personal und Beauftragten ergreifen",
+        "en": "Take measures to support the AI literacy of staff and persons acting on your behalf"
+      },
+      "applies_from": [
+        {
+          "date": "2025-02-02",
+          "scope": "general"
+        }
+      ],
+      "amended": "2026-07-27",
+      "applies_from_text": {
+        "de": "2.2.2025 (neu gefasst 27.7.2026)",
+        "en": "2 Feb 2025 (reworded 27 Jul 2026)"
+      }
+    },
+    {
+      "id": "all_organisations-art-5-1",
+      "category": "all_organisations",
+      "type": "obligation",
+      "article": "Art. 5 Abs. 1",
+      "article_en": "Art. 5(1)",
+      "roles": [
+        "all_operators"
+      ],
+      "who": {
+        "de": "alle Akteure",
+        "en": "all operators"
+      },
+      "duty": {
+        "de": "Verbotene Praktiken unterlassen",
+        "en": "Refrain from prohibited practices"
+      },
+      "applies_from": [
+        {
+          "date": "2025-02-02",
+          "scope": "general"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.2.2025",
+        "en": "2 Feb 2025"
+      }
+    },
+    {
+      "id": "all_organisations-art-5-omnibus",
+      "category": "all_organisations",
+      "type": "obligation",
+      "article": "Art. 5 (Omnibus)",
+      "article_en": "Art. 5 (Omnibus)",
+      "roles": [
+        "all_operators"
+      ],
+      "who": {
+        "de": "alle Akteure",
+        "en": "all operators"
+      },
+      "duty": {
+        "de": "Neue Verbote: nicht einvernehmliche intime Deepfakes identifizierbarer Personen, Darstellungen sexuellen Kindesmissbrauchs",
+        "en": "New prohibitions: non-consensual intimate deepfakes of identifiable persons, child sexual abuse material"
+      },
+      "applies_from": [
+        {
+          "date": "2026-12-02",
+          "scope": "general"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2026",
+        "en": "2 Dec 2026"
+      }
+    },
+    {
+      "id": "all_organisations-recommendation",
+      "category": "all_organisations",
+      "type": "recommendation",
+      "article": "Empfehlung",
+      "article_en": "Recommendation",
+      "roles": [
+        "all_organisations"
+      ],
+      "who": {
+        "de": "alle Unternehmen",
+        "en": "all companies"
+      },
+      "duty": {
+        "de": "Überblick über eingesetzte KI-Systeme (keine ausdrückliche Pflicht, aber Voraussetzung für jede Einstufung)",
+        "en": "Overview of the AI systems in use (no express obligation, but a prerequisite for any classification)"
+      },
+      "applies_from": [],
+      "applies_from_text": {
+        "de": "sofort empfohlen",
+        "en": "recommended now"
+      }
+    },
+    {
+      "id": "transparency-art-50-1",
+      "category": "transparency",
+      "type": "obligation",
+      "article": "Art. 50 Abs. 1",
+      "article_en": "Art. 50(1)",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Hinweis, dass Personen mit einem KI-System interagieren (z. B. Chatbot)",
+        "en": "Inform people that they are interacting with an AI system (e.g. chatbot)"
+      },
+      "applies_from": [
+        {
+          "date": "2026-08-02",
+          "scope": "general"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.8.2026",
+        "en": "2 Aug 2026"
+      }
+    },
+    {
+      "id": "transparency-art-50-2",
+      "category": "transparency",
+      "type": "obligation",
+      "article": "Art. 50 Abs. 2",
+      "article_en": "Art. 50(2)",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Synthetische Inhalte maschinenlesbar markieren",
+        "en": "Mark synthetic content in a machine-readable format"
+      },
+      "applies_from": [
+        {
+          "date": "2026-08-02",
+          "scope": "general"
+        },
+        {
+          "date": "2026-12-02",
+          "scope": "systems_placed_before_2026_08_02"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.8.2026; Systeme vor 2.8.2026: bis 2.12.2026",
+        "en": "2 Aug 2026; systems before 2 Aug 2026: by 2 Dec 2026"
+      }
+    },
+    {
+      "id": "transparency-art-50-3",
+      "category": "transparency",
+      "type": "obligation",
+      "article": "Art. 50 Abs. 3",
+      "article_en": "Art. 50(3)",
+      "roles": [
+        "deployer"
+      ],
+      "who": {
+        "de": "Betreiber",
+        "en": "Deployer"
+      },
+      "duty": {
+        "de": "Betroffene über Emotionserkennung oder biometrische Kategorisierung informieren",
+        "en": "Inform people about emotion recognition or biometric categorisation"
+      },
+      "applies_from": [
+        {
+          "date": "2026-08-02",
+          "scope": "general"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.8.2026",
+        "en": "2 Aug 2026"
+      }
+    },
+    {
+      "id": "transparency-art-50-4",
+      "category": "transparency",
+      "type": "obligation",
+      "article": "Art. 50 Abs. 4",
+      "article_en": "Art. 50(4)",
+      "roles": [
+        "deployer"
+      ],
+      "who": {
+        "de": "Betreiber",
+        "en": "Deployer"
+      },
+      "duty": {
+        "de": "Deepfakes und KI-Texte zu Themen öffentlichen Interesses offenlegen",
+        "en": "Disclose deepfakes and AI text on matters of public interest"
+      },
+      "applies_from": [
+        {
+          "date": "2026-08-02",
+          "scope": "general"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.8.2026",
+        "en": "2 Aug 2026"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-6-art-49-2",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 6 · Art. 49 Abs. 2",
+      "article_en": "Art. 6 · Art. 49(2)",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Einstufung prüfen; bei Ausnahme nach Art. 6 Abs. 3 Bewertung dokumentieren und registrieren",
+        "en": "Check classification; for the Art. 6(3) exception document the assessment and register"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        }
+      ],
+      "applies_from_text": {
+        "de": "mit Anhang-III-Pflichten",
+        "en": "with Annex III obligations"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-9",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 9",
+      "article_en": "Art. 9",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Risikomanagementsystem über den gesamten Lebenszyklus",
+        "en": "Risk management system across the entire lifecycle"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-10",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 10",
+      "article_en": "Art. 10",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Daten und Daten-Governance (Trainings-, Validierungs-, Testdaten)",
+        "en": "Data and data governance (training, validation, test data)"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-11",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 11",
+      "article_en": "Art. 11",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Technische Dokumentation nach Anhang IV",
+        "en": "Technical documentation under Annex IV"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-12",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 12",
+      "article_en": "Art. 12",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Automatische Protokollierung ermöglichen",
+        "en": "Enable automatic logging"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-13",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 13",
+      "article_en": "Art. 13",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Transparenz und Betriebsanleitung für Betreiber",
+        "en": "Transparency and instructions for use for deployers"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-14",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 14",
+      "article_en": "Art. 14",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Menschliche Aufsicht technisch ermöglichen",
+        "en": "Design for human oversight"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-15",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 15",
+      "article_en": "Art. 15",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Genauigkeit, Robustheit und Cybersicherheit",
+        "en": "Accuracy, robustness and cybersecurity"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-17",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 17",
+      "article_en": "Art. 17",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Qualitätsmanagementsystem (für KMU verhältnismäßig)",
+        "en": "Quality management system (proportionate for SMEs)"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-18",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 18",
+      "article_en": "Art. 18",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Unterlagen 10 Jahre aufbewahren",
+        "en": "Keep documentation for 10 years"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-43-47-48",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 43 · 47 · 48",
+      "article_en": "Art. 43 · 47 · 48",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Konformitätsbewertung, EU-Konformitätserklärung, CE-Kennzeichnung",
+        "en": "Conformity assessment, EU declaration of conformity, CE marking"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-49-art-71",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 49 · Art. 71",
+      "article_en": "Art. 49 · Art. 71",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter (Anhang III, außer Nr. 2)",
+        "en": "Provider (Annex III, except point 2)"
+      },
+      "duty": {
+        "de": "Registrierung in der EU-Datenbank",
+        "en": "Registration in the EU database"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027",
+        "en": "2 Dec 2027"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-72",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 72",
+      "article_en": "Art. 72",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Beobachtung nach dem Inverkehrbringen",
+        "en": "Post-market monitoring"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_provider-art-73",
+      "category": "high_risk_provider",
+      "type": "obligation",
+      "article": "Art. 73",
+      "article_en": "Art. 73",
+      "roles": [
+        "provider"
+      ],
+      "who": {
+        "de": "Anbieter",
+        "en": "Provider"
+      },
+      "duty": {
+        "de": "Schwerwiegende Vorfälle melden, spätestens 15 Tage nach Kenntnis (in schweren Fällen kürzer)",
+        "en": "Report serious incidents, at the latest 15 days after becoming aware (shorter in severe cases)"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_deployer-art-26-1-2",
+      "category": "high_risk_deployer",
+      "type": "obligation",
+      "article": "Art. 26 Abs. 1–2",
+      "article_en": "Art. 26(1)–(2)",
+      "roles": [
+        "deployer"
+      ],
+      "who": {
+        "de": "Betreiber",
+        "en": "Deployer"
+      },
+      "duty": {
+        "de": "Nach Betriebsanleitung verwenden; Aufsicht durch kompetente, geschulte Personen",
+        "en": "Use according to the instructions; oversight by competent, trained people"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_deployer-art-26-4-5",
+      "category": "high_risk_deployer",
+      "type": "obligation",
+      "article": "Art. 26 Abs. 4–5",
+      "article_en": "Art. 26(4)–(5)",
+      "roles": [
+        "deployer"
+      ],
+      "who": {
+        "de": "Betreiber",
+        "en": "Deployer"
+      },
+      "duty": {
+        "de": "Eingabedaten auf Zweckbestimmung prüfen, Betrieb überwachen, Risiken und Vorfälle melden",
+        "en": "Check input data against the intended purpose, monitor operation, report risks and incidents"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_deployer-art-26-6",
+      "category": "high_risk_deployer",
+      "type": "obligation",
+      "article": "Art. 26 Abs. 6",
+      "article_en": "Art. 26(6)",
+      "roles": [
+        "deployer"
+      ],
+      "who": {
+        "de": "Betreiber",
+        "en": "Deployer"
+      },
+      "duty": {
+        "de": "Automatisch erzeugte Protokolle mindestens 6 Monate aufbewahren",
+        "en": "Keep automatically generated logs for at least 6 months"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_deployer-art-26-7",
+      "category": "high_risk_deployer",
+      "type": "obligation",
+      "article": "Art. 26 Abs. 7",
+      "article_en": "Art. 26(7)",
+      "roles": [
+        "deployer"
+      ],
+      "who": {
+        "de": "Betreiber (Arbeitgeber)",
+        "en": "Deployer (employer)"
+      },
+      "duty": {
+        "de": "Arbeitnehmervertreter und Beschäftigte vor Einsatz am Arbeitsplatz informieren",
+        "en": "Inform workers’ representatives and staff before use at the workplace"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_deployer-art-26-9",
+      "category": "high_risk_deployer",
+      "type": "obligation",
+      "article": "Art. 26 Abs. 9",
+      "article_en": "Art. 26(9)",
+      "roles": [
+        "deployer"
+      ],
+      "who": {
+        "de": "Betreiber",
+        "en": "Deployer"
+      },
+      "duty": {
+        "de": "Datenschutz-Folgenabschätzung mit Informationen des Anbieters",
+        "en": "Data protection impact assessment using the provider’s information"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "high_risk_deployer-art-26-11",
+      "category": "high_risk_deployer",
+      "type": "obligation",
+      "article": "Art. 26 Abs. 11",
+      "article_en": "Art. 26(11)",
+      "roles": [
+        "deployer"
+      ],
+      "who": {
+        "de": "Betreiber",
+        "en": "Deployer"
+      },
+      "duty": {
+        "de": "Betroffene informieren, wenn Anhang-III-Systeme Entscheidungen über sie treffen oder unterstützen",
+        "en": "Inform people when Annex III systems make or assist decisions about them"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027",
+        "en": "2 Dec 2027"
+      }
+    },
+    {
+      "id": "high_risk_deployer-art-27",
+      "category": "high_risk_deployer",
+      "type": "obligation",
+      "article": "Art. 27",
+      "article_en": "Art. 27",
+      "roles": [
+        "public_body",
+        "private_public_service_provider",
+        "deployer"
+      ],
+      "who": {
+        "de": "öffentliche Stellen, private Erbringer öffentlicher Dienste, Anhang III Nr. 5 b/c",
+        "en": "public bodies, private providers of public services, Annex III point 5(b)/(c)"
+      },
+      "duty": {
+        "de": "Grundrechte-Folgenabschätzung",
+        "en": "Fundamental rights impact assessment"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027",
+        "en": "2 Dec 2027"
+      }
+    },
+    {
+      "id": "high_risk_deployer-art-86",
+      "category": "high_risk_deployer",
+      "type": "obligation",
+      "article": "Art. 86",
+      "article_en": "Art. 86",
+      "roles": [
+        "deployer"
+      ],
+      "who": {
+        "de": "Betreiber",
+        "en": "Deployer"
+      },
+      "duty": {
+        "de": "Auf Verlangen Rolle des KI-Systems bei einer Entscheidung erläutern",
+        "en": "On request, explain the AI system’s role in a decision"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        }
+      ],
+      "applies_from_text": {
+        "de": "mit Anhang-III-Pflichten",
+        "en": "with Annex III obligations"
+      }
+    },
+    {
+      "id": "high_risk_deployer-art-25",
+      "category": "high_risk_deployer",
+      "type": "obligation",
+      "article": "Art. 25",
+      "article_en": "Art. 25",
+      "roles": [
+        "deployer",
+        "distributor",
+        "importer"
+      ],
+      "who": {
+        "de": "Betreiber, Händler, Einführer",
+        "en": "Deployers, distributors, importers"
+      },
+      "duty": {
+        "de": "Bei eigener Marke, wesentlicher Änderung oder neuer Zweckbestimmung: volle Anbieterpflichten",
+        "en": "Own brand, substantial modification or new purpose: full provider obligations"
+      },
+      "applies_from": [
+        {
+          "date": "2027-12-02",
+          "scope": "annex_iii"
+        },
+        {
+          "date": "2028-08-02",
+          "scope": "annex_i"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.12.2027 / 2.8.2028",
+        "en": "2 Dec 2027 / 2 Aug 2028"
+      }
+    },
+    {
+      "id": "gpai-art-53",
+      "category": "gpai",
+      "type": "obligation",
+      "article": "Art. 53",
+      "article_en": "Art. 53",
+      "roles": [
+        "gpai_provider"
+      ],
+      "who": {
+        "de": "GPAI-Anbieter",
+        "en": "GPAI provider"
+      },
+      "duty": {
+        "de": "Technische Dokumentation, Informationen für nachgelagerte Anbieter, Urheberrechtsstrategie, Zusammenfassung der Trainingsinhalte",
+        "en": "Technical documentation, information for downstream providers, copyright policy, summary of training content"
+      },
+      "applies_from": [
+        {
+          "date": "2025-08-02",
+          "scope": "general"
+        },
+        {
+          "date": "2027-08-02",
+          "scope": "legacy_gpai_models"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.8.2025; Bestandsmodelle bis 2.8.2027",
+        "en": "2 Aug 2025; legacy models by 2 Aug 2027"
+      }
+    },
+    {
+      "id": "gpai-art-55",
+      "category": "gpai",
+      "type": "obligation",
+      "article": "Art. 55",
+      "article_en": "Art. 55",
+      "roles": [
+        "gpai_provider_systemic_risk"
+      ],
+      "who": {
+        "de": "GPAI-Anbieter mit systemischem Risiko",
+        "en": "GPAI provider with systemic risk"
+      },
+      "duty": {
+        "de": "Zusätzlich bei systemischem Risiko: Modellbewertung, Risikominderung, Vorfallmeldung, Cybersicherheit",
+        "en": "Additionally for systemic risk: model evaluation, risk mitigation, incident reporting, cybersecurity"
+      },
+      "applies_from": [
+        {
+          "date": "2025-08-02",
+          "scope": "general"
+        },
+        {
+          "date": "2027-08-02",
+          "scope": "legacy_gpai_models"
+        }
+      ],
+      "applies_from_text": {
+        "de": "2.8.2025; Bestandsmodelle bis 2.8.2027",
+        "en": "2 Aug 2025; legacy models by 2 Aug 2027"
+      }
+    }
+  ]
+}

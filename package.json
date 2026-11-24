@@ -1,0 +1,12 @@
+{
+  "name": "eu-ai-act-dataset",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EU AI Act obligations, application dates, Annex III use cases, prohibited practices and fines as JSON, YAML and iCalendar",
+  "license": "CC-BY-4.0",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build:ics": "node scripts/build-ics.mjs"
+  }
+}
